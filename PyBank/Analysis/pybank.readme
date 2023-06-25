@@ -1,0 +1,64 @@
+Python-Challenge - PyBank
+
+Tasks
+=====
+1. Collect the total no. of months included in the dataset
+2. Collect the net total amount of "Profits/Losses" over the entire time period
+3. Calculate the changes in "Profit/Losses" over the entire time period
+4. Calculate the average of the changes collected in task No. 3
+5. Collect the date and amount of the greatest increase in Profits
+6. Collect the data and amount of the greatest decrease in Profits
+7. Print these analysis in terminal
+8. Export a text file with these analysis
+
+
+Task 1:
+    *Using the date list created and appending it to the correct row of data in csv
+    *I used the len function to calculate the total no. of months in the list
+
+Task 2-6:
+    * Used appended profit list and for loop to iterate through rows of csv file.
+    * Using a for loop, the csv data provided was used with functions attributed by the variables created to collect and calculate to complete these Tasks
+    * Functions Used *
+        - (len) : to return the no. of items 
+        - (int) : to return integer from a number or string
+        - (float): to return a decimal number
+        - (index): to return a specific item of data from list (in this instance the date attributed to min and max)
+        - (min): to return the smallest number in applied dataset
+        - (max): to return the largest number in applied dataset
+        - (round): to return value rounded to the closest 10
+        - (sum): returns total
+        - (string): used to return text sequence
+
+Task 7:
+    * Used print function to display the data requested
+    * Used f string functionality to easily format printed text and embed the necessary fields of data
+
+Task *:
+    * Created a path for the new data analysis text file, this saves the text file in the appropriate analysis file within the PyBank folder
+    * Opened the new path using the 'w' write function
+    * Using the .write function, I was able to display the data requested in a text file
+    * Used the /n functionality to seperate the appropriate lines of text
+    * Used f string functionality in order to embed the dates of greatest increase and decrease
+
+
+
+Used the following links for reference and help:
+
+min and max:
+https://realpython.com/python-min-and-max/
+
+Output Txtfile:
+https://www.pythontutorial.net/python-basics/python-write-text-file/
+
+new line functionality:
+https://www.codingdeeply.com/add-space-between-lines-in-python/#:~:text=for%20each%20method.-,Method%201%3A%20Using%20the%20%E2%80%9C%5Cn%E2%80%9D%20character,a%20new%20line%20of%20output.
+
+indexing:
+https://www.w3schools.com/python/ref_list_index.asp
+
+f strings:
+https://stackoverflow.com/questions/57150426/what-is-printf
+
+list of functions for explaination reference:
+https://docs.python.org/3/library/functions.html
